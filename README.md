@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div id="readme-top" align="center">
+  <h3 align="center">Data Visualizations</h3>
+
+  <p align="center">
+    This project is the research and exploration of building optimized data visualizations with React and large datasets.  The application is engineered with Next.js 15, React v19 and D3.
+    <br />
+    <a href="https://andyfrith.com"><strong>https://andyfrith.com</strong></a>
+    <br />
+    
+</div>
+Visualizing large datasets in <a href="https://react.dev/">React</a> requires careful consideration of performance and user experience. Several libraries and techniques can be employed to handle this challenge effectively.  
+<a href="https://d3js.org/">D3</a> is "The JavaScript library for bespoke data visualization."  I've elected to explore the majority of these topics using D3 to "create custom dynamic visualizations with unparalleled flexibility."  The application architecture is built with <a href="https://nextjs.org/">Next.JS</a> "The React Framework for the Web... enables you to create high-quality web applications with the power of React components."
 
 ## Getting Started
 
-First, run the development server:
+- <u>Setup Research Tasks</u>
+- <u>Review D3 Documentation</u>
+- <u>Outline Resources to Review In Research of Techniques</u>
+- <u>Build Next.JS Demo Application and Visualizations Framework</u>
+- <u>Explore Visualizations of Large Datasets Using Outlined Optimization Techniques</u>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Techniques
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- <u>Data Aggregation and Summarization:</u> Before rendering, aggregate and summarize the data to reduce the number of data points displayed. This can involve calculating averages, sums, or other statistical measures.
+- <u>Virtualization/Windowing:</u> Libraries like react-virtualized or react-window can render only the visible portion of a large dataset, improving performance by reducing the number of DOM elements.
+- <u>Pagination and Infinite Scrolling:</u> Implement pagination or infinite scrolling to load and display data in smaller chunks, preventing the browser from being overwhelmed.
+- <u>Web Workers:</u> Offload data processing and calculations to web workers to prevent blocking the main thread and maintain a smooth user interface.
+- <u>Canvas-based rendering:</u> Using canvas instead of SVG can significantly improve performance when rendering a large number of elements.
+- <u>Debouncing and Throttling:</u> Limit the frequency of updates and re-renders by using debouncing or throttling techniques, especially when handling user interactions or real-time data updates.
+- <u>Data Structure Optimization:</u> Use efficient data structures and algorithms to optimize data processing and retrieval.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Final Thoughts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+By combining appropriate libraries and techniques, developers can create performant and user-friendly visualizations of large datasets in React applications.
 
-## Learn More
+### About Me
 
-To learn more about Next.js, take a look at the following resources:
+I enjoy the challenge of frontend development while solving complex, multi-dimensional problems in a large-scale software architecture. I believe in the extreme collaboration within and between teams- unified in vision- to achieve engineering, product and business success. With 15+ years of UI and full-stack software development experience, I leverage React, Next.js, Node.js, TypeScript and GraphQL in development of high-quality software solutions. I’m experienced in delivery of performant features using techniques; such as, server-side rendering (SSR). I am interested in maximizing the exciting potential of AI tools and technologies to build products and experiences that users love. I look forward to my continued evolution as a software engineer and delivering best quality results with great passion and enthusiasm in the future.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[https://www.linkedin.com/in/goodapplemedia/](https://www.linkedin.com/in/goodapplemedia/) Andy Frith - LinkedIn
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+[https://andyfrith.com](https://andyfrith.com) Andy Frith - Portfolio Website
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[https://andyfrith.com/AndyFrith.pdf](https://andyfrith.com/AndyFrith.pdf) - Andy Frith - Résumé
