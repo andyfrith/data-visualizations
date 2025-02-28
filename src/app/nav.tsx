@@ -44,6 +44,19 @@ export function Nav() {
               >
                 ...
               </ListItem>
+              <ListItem
+                href="/d3/explore-react-viz/scatterplots/example-1"
+                title="The value of a good movie"
+              >
+                Scatterplot visualization of movie budgets, ratings and revenues
+              </ListItem>
+              <ListItem
+                href="/d3/explore-react-viz/scatterplots/example-2"
+                title="The value of a good movie (hover version)"
+              >
+                Scatterplot visualization of movie budgets, ratings and revenues
+                with hover tooltip
+              </ListItem>
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
@@ -89,6 +102,19 @@ export function Nav() {
                 title="Scatterplot"
               >
                 ...
+              </ListItem>
+              <ListItem
+                href="/d3/explore-react-viz/scatterplots/example-1"
+                title="Scatterplot - The value of a good movie"
+              >
+                Scatterplot visualization of movie budgets, ratings and revenues
+              </ListItem>
+              <ListItem
+                href="/d3/explore-react-viz/scatterplots/example-2"
+                title="The value of a good movie (hover version)"
+              >
+                Scatterplot visualization of movie budgets, ratings and revenues
+                with hover tooltip
               </ListItem>
             </ul>
           </NavigationMenuContent>
